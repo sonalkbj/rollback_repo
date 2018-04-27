@@ -6,12 +6,7 @@
 # Version :- 20_04_2018_V2
 # 
 # Uses a for loop over all arguments.
-#
-# Options:
-#  -h     ... help message
-#  -d n ... consider only files modified within the last n days
-#  -w n ... consider only files modified within the last n weeks
-#
+# Date :- 
 # Limitations: 
 #  . Only for Redhat family os
 #  . User for roll_Back with old rep
