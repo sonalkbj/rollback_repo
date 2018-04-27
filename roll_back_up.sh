@@ -27,13 +27,17 @@ fi
 
 
 ## prelist thr pkg installed 
+## Variables 
 
-: > prilist_of_pkg 
+PL="prilist_of_pkg"
+POL="postlist_of_pkg"
+
+: > $PL $POL
 
 echo " Prelisting package installed " 
 echo " In Text file :- prilist_of_pkg"
 
-rpm -qa > prilist_of_pkg
+rpm -qa > $PL
 
 # check the last update and fetch the ID
 
@@ -58,7 +62,7 @@ yum history undo $id
 echo " Postlisting package "
 echo " In Text file :- postlist_of_pkg"
 sleep 3
-rpm -qa > postlist_of_pkg
+rpm -qa > $POL
 
 
 
