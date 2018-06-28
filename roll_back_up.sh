@@ -1,10 +1,7 @@
 #!/bin/bash
 ############################################################################
-# 
 # Usage: To roll back the patching using yum history ...
-#
 # Version :- 20_04_2018_V2
-# 
 # Uses a for loop over all arguments.
 # Date :- 
 # Limitations: 
